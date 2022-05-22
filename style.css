@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: verdana, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #3C1518 ,  #69140E);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  TIRA AS SETAS DO CAMPO NUMBER  */
+
+.principal {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    color: #b8adad;
+
+}
+
+span {
+    white-space: nowrap;
+    display: inline-block;
+    width: 71%;
+    overflow: hidden;
+    animation: digitando 3.5s steps(45), blink .4s infinite alternate;
+    border-right: 3px solid;
+}
+
+@keyframes digitando {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    40% {
+        border-color: rgba(255, 255, 255, .2);
+    }
+}
+
+
+.titles h1 {
+    margin: 3rem 0;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.camps {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.camps input[type="number"] {
+    border: 1px solid  #b8adad;
+    background-color: initial;
+    color: #b8adad;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.camps input[type="submit"]{
+    width: 70px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.results {
+    margin-top: 1.2rem;
+}

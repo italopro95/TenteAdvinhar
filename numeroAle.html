@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Número Aleátorio</title>
+</head>
+<body>
+    <main class="principal">
+    
+        <header class="cabecalho">
+            <div class="titles">
+                <h1>Tente Advinhar!!</h1>
+                <span>
+                    <h2>Digite Abaixo um número de 0 a 100.</h2>
+                </span>
+            </div>
+        </header>
+    
+        <div class="camps">
+            <input type="number" name="valor" id="valor">
+            <input type="submit" name="" onclick="chamar()" value="Jogar">
+           
+        </div>
+
+        <div class="results">
+            <h3 id="digito"></h3>
+            <h3 id="numA1"></h3>
+            <h3 id="acerto"></h3>
+            <h3 id="errou"></h3>
+        </div>
+    
+        <script src="numeroAl.js"></script>
+    
+    </main>
+</body>
+</html>
