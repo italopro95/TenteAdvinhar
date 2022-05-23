@@ -19,7 +19,7 @@ body {
 /*  TIRA AS SETAS DO CAMPO NUMBER  */
 
 .principal {
-    width: 50%;
+    width: 80%;
     height: 100vh;
     margin: auto;
     text-align: center;
@@ -30,7 +30,7 @@ body {
 span {
     white-space: nowrap;
     display: inline-block;
-    width: 71%;
+    width: 520px;
     overflow: hidden;
     animation: digitando 3.5s steps(45), blink .4s infinite alternate;
     border-right: 3px solid;
